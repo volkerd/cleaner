@@ -4,11 +4,6 @@ import (
 	"os"
 )
 
-type File struct {
-	path     string
-	datatype string
-}
-
 var (
 	sourcePath string
 	targetPath string
